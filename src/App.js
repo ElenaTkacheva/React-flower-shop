@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Shop from "./Shop";
+import image from'./img/logo1.webp';
 
 function App() {
 
@@ -12,9 +13,20 @@ function App() {
     <div>
       <Router>
         <nav>
-          <Link to="/">HOME</Link>
-          <Link to="/shop">SHOP</Link>
-          <Link to="/about">ABOUT</Link>
+          <div>
+            <img className="logo" src={image} alt="logo" />
+          </div>
+          <div>
+            <Link to="/" className="link">
+              HOME
+            </Link>
+            <Link to="/shop" className="link">
+              SHOP
+            </Link>
+            <Link to="/about" className="link">
+              ABOUT
+            </Link>
+          </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />

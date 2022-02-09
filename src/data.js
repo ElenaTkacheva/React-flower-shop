@@ -5,9 +5,10 @@ export const data = [
     searchTerm: "Birthday",
     price: 95,
     description:
-      "Trendy and simply irresistible! Perfectly grape, this stunning flower bouquet consists of lavender roses, carnations and traditional daisies offset by fuchsia mini carnations, green button poms and white Peruvian lilies to create an arrangement popping with colour and style. Presented in a violet purple glass vase to give it a poshly purple pop look, this mixed flower arrangement is set to send your sweetest wishes to friends and family in honour of a birthday, as a thank you, or just to celebrate in style.",
+      "Trendy and simply irresistible! Perfectly grape, this stunning flower bouquet consists of lavender roses, carnations and traditional daisies offset by fuchsia mini carnations, green button poms and white Peruvian lilies to create an arrangement popping with colour and style. Presented in a violet purple glass vase to give it a poshly purple pop look.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/ftd-birthday/purple-pop-bouquet-upgraded.jpg?s=4",
+    showMore: "",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const data = [
       "We named this arrangement to express how we feel when we think of why we give flowers. It is because of important people in our lives that are so special! Featuring red roses, gorgeous pink Stargazer lilies, matsumoto asters, carnations, irises and delicate white asters. Go ahead and give them what they deserve!",
     image:
       "https://www.canadaflowers.ca/imagecache/product/cf-thank-you/you-are-so-special.jpg?s=8",
+    showMore: "",
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ export const data = [
       "Show them how your Love Blossoms with this splendid bouquet! Pink and mauve daisies are complimented beautifully with white alstroemeria and tasteful greenery. Presented in a flared glass vase with a twine bow.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/cf-thank-you/love-blossoms-upgraded.jpg?s=5",
+    showMore: "",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ export const data = [
       "A clear glass cylinder vase holds a delightful, easy-going combination of pink and white blooms, including carnations, alstroemeria, miniature white carnations, pretty pink complementary flowers and a single pink rose. Perfectly matched for thank-you gift giving!",
     image:
       "https://www.canadaflowers.ca/imagecache/product/cf-thank-you/nice-n-easy.jpg?s=8",
+    showMore: "",
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ export const data = [
       "Sing her a love song – with flowers. This lush, loving rose arrangement tells her just how much you care. The stylish bouquet features large red and pink roses accented with smaller spray roses in shades of red and pinks. Delicate green oregonia and pittosporum add a fresh contrast, and all comes arranged and delivered in our exclusive Mirrored Silver Cube vase.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/teleflora-valentines-day/love-medley-bouquet-upgraded.jpg?s=7",
+    showMore: "",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ export const data = [
       "A serene white and yellow arrangement of lilies, miniature carnations, daisies and more, displayed in a whitewash woodchip basket.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/sympathy-arrangements/beautiful-life-upgraded.jpg?s=5",
+    showMore: "",
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ export const data = [
       "A fabulously divine way to declare your love, or simply brighten a special someone day, this pinktastic bouquet of roses and lilies is perfectly paired with a perky pink cube vase.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/teleflora-birthday/fabulous-flora-upgraded.jpg?s=5",
+    showMore: "",
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ export const data = [
       "Extend your gratitude with this pretty basket of yellow lilies, pink carnations, burgundy stock and purple statice. The perfect gift to send your thanks!",
     image:
       "https://www.canadaflowers.ca/imagecache/product/cf-thank-you/merci-beaucoup.jpg?",
+    showMore: "",
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ export const data = [
       "Modern arrangement of soft blooms that show you are thinking of them. White lilies, asters and carnations with cream roses are nestled in a clear glass cube vase.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/sympathy-budget/precious-memories-upgraded.jpg?s=6",
+    showMore: "",
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ export const data = [
       "Fall in love at first sight with our Adore You Bouquet. Beautifully designed with pink roses, red carnations and sweet pink alstroemeria, this flower arrangement is sure to have them blushing all Valentine’s Day long!",
     image:
       "https://www.canadaflowers.ca/imagecache/product/ftd-valentines-day/adore-you-upgraded.jpg?s=5",
+    showMore: "",
   },
   {
     id: 11,
@@ -108,6 +118,7 @@ export const data = [
       "Send them a bit of heaven during a time of loss with this beautiful bouquet of luxurious crème roses and pure white lilies arranged in a sapphire blue cube mixed with purple-blue statice and green pitta negra.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/teleflora-sympathy/sapphire-skies-bouquet-upgraded.jpg?s=4",
+    showMore: "",
   },
   {
     id: 12,
@@ -118,6 +129,7 @@ export const data = [
       "A soft and delicate arrangement in a ceramic container of light pink lilies, soft pink carnations, white daisies and more!",
     image:
       "https://www.canadaflowers.ca/imagecache/product/sympathy-budget/blissful-season-upgraded.jpg?s=4",
+    showMore: "",
   },
   {
     id: 13,
@@ -128,6 +140,7 @@ export const data = [
       "This Holiday, give her a pretty basket of flowers to demonstrate your love and gratitude. A handled basket is arranged with pink daisies, purple asters, lavender asters, and pink alstroemeria - all expertly crafted together with complimentary greens and a purple organza ribbon.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/cf-birthday/peace-love-joy-upgraded.jpg?s=6",
+    showMore: "",
   },
   {
     id: 14,
@@ -138,6 +151,7 @@ export const data = [
       "This spectacular bouquet is the latter, bursting with sunny blooms - yellow and white roses, green mums and more. Hard to believe that one vase could hold so much beauty. Share it with someone special.",
     image:
       "https://www.canadaflowers.ca/imagecache/product/cf-thank-you/your-sweet-smile-upgraded.jpg?s=4",
+    showMore: "",
   },
   {
     id: 15,
@@ -148,5 +162,6 @@ export const data = [
       "Send someone special a sparkling token of your affection with this gorgeous pink and red bouquet. Romantic as can be, the mix of roses and carnations is beautifully arranged in a chic mercury glass vase. It is an instant classic!",
     image:
       "https://www.canadaflowers.ca/imagecache/product/teleflora-valentines-day/my-sweet-bouquet-upgraded.jpg?s=5",
+    showMore: "",
   },
 ];
