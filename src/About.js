@@ -45,7 +45,7 @@ function About() {
       </div>
       <h3 className="contacts">Contact us:</h3>
       <div className="contacts-info">
-        <div className="column">
+        <div className="column column-mobile">
           <h4 className="column-title">Customer Service</h4>
           <a href="#">Help</a>
           <a href="#">FAQ</a>

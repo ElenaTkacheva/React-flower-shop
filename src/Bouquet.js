@@ -1,22 +1,13 @@
 import { useState } from "react";
-import { data } from './data';
 
 function Bouquet({ flowerForSale }) {
 
-    const [bouquets, setBouquet] = useState(data);
+    const [showMore, setShowMore] = useState(false);
 
 
-     const setShowMore = (id) => {
-       const newSet = [];
-       bouquets.forEach((bouquet) => {
-         if (bouquet.id === id) {
-           const changedShop = { ...bouquets, showMore: !bouquet.showMore };
-           newSet.push(changedShop);
-         } else {
-           newSet.push(bouquet);
-         }
-       });
-       setBouquet(newSet);
+     const setShowClick = (element) => {
+       element.showMore = !element.showMore;
+       setShowMore(!showMore);
      };
 
   return (
@@ -32,7 +23,7 @@ function Bouquet({ flowerForSale }) {
           <h4 className="product-price">$ {price}</h4>
           <p>
             {showMore ? description : description.substring(0, 120) + "..."} 
-            <button className="btn-show" onClick={() => setShowMore(id)}>
+            <button className="btn-show" onClick={() => setShowClick(element)}>
               {showMore ? "Show less" : "Show more"}
             </button>
           </p>

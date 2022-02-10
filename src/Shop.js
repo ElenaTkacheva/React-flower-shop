@@ -6,6 +6,7 @@ import Buttons from "./Buttons";
 
 function Shop() {
   const [bouquet, setBouquet] = useState(data);
+  
 
   const chosenBouquet = (searchTerm) => {
     const newBouquet = data.filter(
